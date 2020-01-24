@@ -1,21 +1,19 @@
-package DownloadThreads;
+package com.ereinitzhuber.DownloadThreads;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.URL;
 import java.nio.channels.Channels;
 import java.nio.channels.FileChannel;
 import java.nio.channels.ReadableByteChannel;
 
-public class MiscDownloadThread implements DLThread {
+public class RedditDownloadThread  implements DLThread {
     String baseUrl;
     String path;
     String filename;
     File outputfile;
     Thread me;
 
-    public MiscDownloadThread(String url, String path) {
+    public RedditDownloadThread(String url, String path) {
         me = new Thread(this);
         baseUrl = url;
         this.path = path;
@@ -37,7 +35,7 @@ public class MiscDownloadThread implements DLThread {
                 fileDownloadedFlag = true;
             }
             catch (IOException e) {
-                if (retries == 5) {
+                if (retries == 2) {
                     outputfile.delete();
                     break;
                 }

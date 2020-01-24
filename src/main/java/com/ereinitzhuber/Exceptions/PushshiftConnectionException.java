@@ -1,4 +1,4 @@
-package Exceptions;
+package com.ereinitzhuber.Exceptions;
 
 
 public class PushshiftConnectionException extends Exception {

@@ -1,4 +1,4 @@
-package DownloadThreads;
+package com.ereinitzhuber.DownloadThreads;
 
 import java.io.IOException;
 

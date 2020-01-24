@@ -1,5 +1,5 @@
 
-package PushshiftResponse;
+package com.ereinitzhuber.PushshiftResponse;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

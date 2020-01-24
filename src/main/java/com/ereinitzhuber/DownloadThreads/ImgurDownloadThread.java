@@ -1,6 +1,6 @@
-package DownloadThreads;
+package com.ereinitzhuber.DownloadThreads;
 
-import Exceptions.URLParsingException;
+import com.ereinitzhuber.Exceptions.URLParsingException;
 import com.google.gson.Gson;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

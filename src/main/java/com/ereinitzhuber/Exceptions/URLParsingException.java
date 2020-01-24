@@ -1,4 +1,4 @@
-package Exceptions;
+package com.ereinitzhuber.Exceptions;
 
 public class URLParsingException extends Exception {
     public URLParsingException() {

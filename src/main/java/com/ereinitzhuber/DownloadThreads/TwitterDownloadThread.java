@@ -1,6 +1,6 @@
-package DownloadThreads;
+package com.ereinitzhuber.DownloadThreads;
 
-import Exceptions.URLParsingException;
+import com.ereinitzhuber.Exceptions.URLParsingException;
 
 import java.io.*;
 import java.net.URI;

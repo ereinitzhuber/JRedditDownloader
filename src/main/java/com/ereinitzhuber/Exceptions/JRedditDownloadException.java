@@ -1,4 +1,4 @@
-package Exceptions;
+package com.ereinitzhuber.Exceptions;
 
 /**
  * Generalized Exception I have more future plans for. As of now

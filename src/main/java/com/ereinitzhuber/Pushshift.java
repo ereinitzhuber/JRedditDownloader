@@ -1,8 +1,8 @@
-package JRedditDownloader;
+package com.ereinitzhuber;
 
-import Exceptions.PushshiftConnectionException;
-import PushshiftResponse.Data;
-import PushshiftResponse.Response;
+import com.ereinitzhuber.Exceptions.PushshiftConnectionException;
+import com.ereinitzhuber.PushshiftResponse.Data;
+import com.ereinitzhuber.PushshiftResponse.Response;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -17,7 +17,6 @@ import java.util.List;
 import java.time.Instant;
 
 class Pushshift {
-
     static List<String> getLinks(String subreddit, String path) throws PushshiftConnectionException {
 
         List<Data>  Responses = new ArrayList<>();

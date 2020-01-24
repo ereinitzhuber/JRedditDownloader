@@ -1,7 +1,7 @@
-package JRedditDownloader;
+package com.ereinitzhuber;
 
-import DownloadThreads.*;
-import Exceptions.*;
+import com.ereinitzhuber.DownloadThreads.*;
+import com.ereinitzhuber.Exceptions.*;
 
 import java.util.ArrayList;
 import java.util.List;
