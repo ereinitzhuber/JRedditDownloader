@@ -1,5 +1,9 @@
 package Exceptions;
 
+/**
+ * Generalized Exception I have more future plans for. As of now
+ * it is only thrown in response to a Pushshift error in the main download method.
+ */
 public class JRedditDownloadException extends Exception {
     String message;
     public JRedditDownloadException() {

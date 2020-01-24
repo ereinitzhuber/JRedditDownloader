@@ -5,6 +5,9 @@ import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * @see <a href="http://www.jsonschema2pojo.org/">jsonschema2pojo</a>
+ */
 public class Response {
 
     @SerializedName("data")

@@ -1,4 +1,5 @@
-import Exceptions.EmptyResponseException;
+package JRedditDownloader;
+
 import Exceptions.PushshiftConnectionException;
 import PushshiftResponse.Data;
 import PushshiftResponse.Response;
@@ -66,7 +67,7 @@ class Pushshift {
             urls.add(data.getUrl());
         }
         if (urls.size() == 0) {
-            throw new EmptyResponseException();
+            throw new PushshiftConnectionException("Response empty... No links found.");
         }
         else {
             try {

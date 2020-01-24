@@ -4,6 +4,9 @@ package PushshiftResponse;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+/**
+ * @see <a href="http://www.jsonschema2pojo.org/">jsonschema2pojo</a>
+ */
 public class Data {
 
     @SerializedName("created_utc")

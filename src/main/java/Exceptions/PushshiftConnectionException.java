@@ -1,5 +1,6 @@
 package Exceptions;
 
+
 public class PushshiftConnectionException extends Exception {
     String message;
     public PushshiftConnectionException() {
