@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.ereinitzhuber"},{"l":"com.ereinitzhuber.DownloadThreads"},{"l":"com.ereinitzhuber.Exceptions"},{"l":"com.ereinitzhuber.PushshiftResponse"}]

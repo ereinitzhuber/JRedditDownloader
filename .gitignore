@@ -1,4 +1,4 @@
 /src/test/
 /.idea/workspace.xml
 target/
-!/target/site/
+out/
