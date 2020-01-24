@@ -1,4 +1,4 @@
-##JRedditDownloader
+## JRedditDownloader
 JRedditDownloader is a cross-platform multi-threaded program utilizing the
 Pushshift API to download all images from a Reddit subreddit.
 It can be used either as a standalone program ran from the command line or
@@ -8,7 +8,7 @@ When used as a library in your own project you may choose to include or exclude 
 the methods. The specific implementations of each downloader are accessible through
 static methods, making the library useful for more than just Reddit. 
 ##
-####Dependencies
+#### Dependencies
 
 GSON 
 https://github.com/google/gson
@@ -29,7 +29,7 @@ dependencies {
 ```
 
 ##
-####Usage
+#### Usage
 The Javadoc file covers the library jar and it's usage. As for the standalone jar
 It only supports downloading an entire subreddit for now. Here's how to use the it.
 
